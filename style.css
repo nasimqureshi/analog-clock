@@ -41,5 +41,17 @@ body {
     height: 8px;
     border-radius: 50%;
     background-color: #fff;
-  
-}
+  }
+  .hand {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  .hand i {
+    position: absolute;
+    background-color: var(--clr);
+    width: 4px;
+    height: 91px;
+    border-radius: 8px;
+  }
